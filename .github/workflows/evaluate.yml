@@ -3,7 +3,7 @@ name: Process Data
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Download nodes-towns from Crusalis Website"]
+    workflows: ["Download nodes-towns from Civitas website Website"]
     types:
       - completed
 
