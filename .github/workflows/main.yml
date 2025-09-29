@@ -19,7 +19,7 @@ jobs:
 
       - name: Download file
         run: |
-          url="https://map.crusalis.net/nodes/towns.json"
+          url="http://play.civitasmc.xyz:7878/nodes/towns.json"
           dt=$(date +"%Y%m%d_%H%M%S")
           filename="nodes-towns_${dt}.json"
           curl -fsSL "$url" -o "$filename"
